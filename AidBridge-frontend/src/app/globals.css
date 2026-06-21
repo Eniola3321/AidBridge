@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-tertiary: #ffffff;
+  --color-inverse-surface: #283044;
+  --color-background: #faf8ff;
+  --color-inverse-on-surface: #eef0ff;
+  --color-on-background: #131b2e;
+  --color-on-tertiary-fixed-variant: #00504e;
+  --color-on-secondary-fixed: #002108;
+  --color-secondary: #006e2a;
+  --color-tertiary-fixed: #6af7f4;
+  --color-on-tertiary-container: #6cf9f6;
+  --color-on-primary-container: #dfe3ff;
+  --color-on-primary-fixed: #001452;
+  --color-on-surface: #131b2e;
+  --color-surface-dim: #d2d9f4;
+  --color-surface-container: #eaedff;
+  --color-surface-container-low: #f2f3ff;
+  --color-on-tertiary-fixed: #00201f;
+  --color-surface-container-high: #e2e7ff;
+  --color-on-error-container: #93000a;
+  --color-secondary-fixed-dim: #3ce36a;
+  --color-surface-container-highest: #dae2fd;
+  --color-on-primary: #ffffff;
+  --color-tertiary-container: #007270;
+  --color-surface-variant: #dae2fd;
+  --color-tertiary: #005856;
+  --color-secondary-container: #5cfd80;
+  --color-on-primary-fixed-variant: #0038b6;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-surface-bright: #faf8ff;
+  --color-on-secondary-fixed-variant: #00531e;
+  --color-on-secondary: #ffffff;
+  --color-outline-variant: #c3c5d9;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface: #faf8ff;
+  --color-primary: #003ec7;
+  --color-inverse-primary: #b7c4ff;
+  --color-surface-tint: #004ced;
+  --color-primary-container: #0052ff;
+  --color-on-secondary-container: #00732c;
+  --color-outline: #737688;
+  --color-on-surface-variant: #434656;
+  --color-tertiary-fixed-dim: #47dbd7;
+  --color-primary-fixed-dim: #b7c4ff;
+  --color-secondary-fixed: #69ff87;
+  --color-error: #ba1a1a;
+  --color-primary-fixed: #dde1ff;
+
+  --font-headline: var(--font-manrope);
+  --font-body: var(--font-inter);
+  --font-label: var(--font-inter);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-nav {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-effect {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #003ec7 0%, #0052ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.nft-gradient-bg {
+  background: linear-gradient(135deg, #003ec7 0%, #0052ff 100%);
+}
+
+.ghost-border {
+  border: 1px solid rgba(115, 118, 136, 0.15);
+}
+
+::selection {
+  background-color: var(--color-primary-container);
+  color: var(--color-on-primary-container);
+}
